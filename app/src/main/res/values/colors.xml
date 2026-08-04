@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores base -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta Alke Wallet (Figma) -->
+    <color name="primary_blue">#52A3F8</color>       <!-- Azul/Celeste principal -->
+    <color name="primary_green">#58D64D</color>      <!-- Verde para enviar dinero -->
+    <color name="bg_light_gray">#F5F6FA</color>     <!-- Fondo claro para tarjetas y secciones -->
+    <color name="text_dark">#1A1A1A</color>         <!-- Textos y títulos principales -->
+    <color name="text_muted">#7E8B9B</color>        <!-- Textos secundarios y placeholders -->
+    <color name="stroke_border">#E0E0E0</color>      <!-- Bordes de los campos/inputs -->
 </resources>
