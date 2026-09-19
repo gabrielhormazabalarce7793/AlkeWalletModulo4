@@ -14,6 +14,7 @@ public class AuthLandingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auth_landing);
 
+        // Inicializamos los elementos de la interfaz
         Button btnCreateAccountLanding = findViewById(R.id.btnCreateAccountLanding);
         TextView btnAlreadyHaveAccount = findViewById(R.id.btnAlreadyHaveAccount);
 
@@ -26,7 +27,7 @@ public class AuthLandingActivity extends AppCompatActivity {
             }
         });
 
-        // 2. Botón "¿Ya tiene cuenta?" -> abre LoginActivity
+        // 2. Texto/Botón "¿Ya tiene cuenta?" -> abre LoginActivity
         btnAlreadyHaveAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

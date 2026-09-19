@@ -18,11 +18,12 @@ public class LoginActivity extends AppCompatActivity {
         Button btnLogin = findViewById(R.id.btnLogin);
         TextView btnGoToSignup = findViewById(R.id.btnGoToSignup);
 
-        // Al hacer clic en "Login", simula el ingreso a la Home Page (MainActivity)
+        // Al hacer clic en "Login", navega a la pantalla principal (MainActivity)
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(LoginActivity.this, "¡Bienvenido a Alke Wallet!", Toast.LENGTH_SHORT).show();
+
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
@@ -35,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }
